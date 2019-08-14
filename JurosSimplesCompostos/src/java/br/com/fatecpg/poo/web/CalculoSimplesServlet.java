@@ -35,14 +35,14 @@ public class CalculoSimplesServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             
-             out.println("<!DOCTYPE html>");
+            out.println("<!DOCTYPE html>");
             out.println("<html lang='pt-br'>");
             out.println("<head>");
             out.println("<meta charset='utf-8'>");
             out.println("<meta name='viewport' content='width=device-width', initial-scale=1, shrink-to-fit=no>");
             out.println("<meta name='description' content=''>");
             out.println("<meta name='author' content=''>");
-            out.println("<title>Small Business - Start Bootstrap Template</title>");
+            out.println("<title>Juros Simples e Composto</title>");
 
             out.println( "<!-- Bootstrap core CSS -->");
             out.println ("<link href='vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet'>");
