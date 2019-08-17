@@ -70,7 +70,7 @@ public class CalculoSimplesServlet extends HttpServlet {
             out.println("</a>");
             out.println(" </li>");
             out.println("<li class='nav-item'>");
-            out.println("<a class='nav-link' href='#'>Juros Compostos </a>");
+            out.println("<a class='nav-link' href='juros-compostos.html'>Juros Compostos </a>");
             out.println("</li>");
            
             out.println("</ul>)");
